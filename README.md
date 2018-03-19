@@ -5,6 +5,12 @@ We had a module on JAVA in the university, as a part of which we had to do lab e
 
 BirdGame.java and its User class is basically a hangman game, but for birds. There is an array of birds defined and then we randomize it to chose one bird that must be guessed!
 
+Pancakes.java, Pancakes.input and Pancakes.output -
+This problem takes inspiration from the only paper BILL GATES wrote - on prefix reversal sorting, where you can sort a whole stack of pancakes in ascending order of their diameter by find the largest pancake in the stack and flipping all the pancakes above this pancake.Then find the second largest pancake and flip all till that and so on...
+Pancakes.input contains a set of inputs. ON CMD do:
+`javac Pancakes.java
+java Pancakes < Pancakes.input`
+
 The 4 files : Buffer.java, Producer.java, Consumer.java and Prodcon.java constitute the famous PRODUCER-CONSUMER PROBLEM. It deals with concurrent programming and java threads.
 In cocnurrent programming, we often do many things at once parallely, and thus there is a problem of "shared resouce" and condition of "mutual exclusion" must then be met, to stop other threads from accessing the resource, when one of the threads is using it.
 Following is a description of the producer-consumer problem:
