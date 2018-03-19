@@ -10,6 +10,7 @@ This problem takes inspiration from the only paper BILL GATES wrote - on prefix 
 Pancakes.input contains a set of inputs. ON CMD do:
 
   ` javac Pancakes.java
+  
     java Pancakes < Pancakes.input`
 
 The 4 files : Buffer.java, Producer.java, Consumer.java and Prodcon.java constitute the famous PRODUCER-CONSUMER PROBLEM. It deals with concurrent programming and java threads.
