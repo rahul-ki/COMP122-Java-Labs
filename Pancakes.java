@@ -97,19 +97,17 @@ public class Pancakes  {
 					if (index != 0)  {  /*  If the biggest pancake of the substack
                                            is not on top, move it to the top...  */
 						System.out.print( (index+1) + " ");
-						flipSubstack(pancakes, index);
+						flipThem(pancakes, index);
 					}
                    /*  ... then we flip to get the (current) biggest one to the bottom.  */
 					System.out.print( (bottom+1) + " ");
-					flipSubstack(pancakes, bottom);  
+					flipThem(pancakes, bottom);  
                         
             }  /*  end of constructing the new stack  */
 
         }  /*  done processing the whole stack  */
 
-		// then flip all pancakes placed above max
-		flipThem(pancakes,max_index);
-        /*  We're done, so print out a "0".  */
+	/*  We're done, so print out a "0".  */
         System.out.println("0");
         System.out.println();
 
