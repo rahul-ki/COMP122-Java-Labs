@@ -10,7 +10,8 @@ It is basically a hangman game, but for birds. There is an array of birds define
 This problem takes inspiration from the only paper BILL GATES wrote - on prefix reversal sorting, where you can sort a whole stack of pancakes in ascending order of their diameter by find the largest pancake in the stack and flipping all the pancakes above this pancake.Then find the second largest pancake and flip all till that and so on...
 Pancakes.input contains a set of inputs. ON CMD do:
 
-  ``` javac Pancakes.java  
+  ``` 
+  javac Pancakes.java  
   java Pancakes < Pancakes.input
   ``` 
 
