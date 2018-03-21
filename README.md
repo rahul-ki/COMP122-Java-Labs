@@ -41,5 +41,5 @@ A producer process (eg Secretary) and a consumer process (eg Manager) communicat
 I have incorporated the use of semaphores. In Buffer.java, one finds synchronized functions and a "volatile" flag variable. 
 This buffer can hold one item!
 
-###CommonWordFilesSet.java
+### CommonWordFilesSet.java
 I thought to make things a bit harder. This file allows user to input ANY number of files and finds the common words in all the files. SO I created an ArrayList of HashSet of Strings. This lead to millions of generic array creation errors and weird outputs, and after thinking about it for about two days, there it is! I would probably rate this is as the hardest file to code in here, because I wasn't familiar to collections at this time!
