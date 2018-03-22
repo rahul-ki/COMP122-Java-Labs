@@ -51,7 +51,7 @@ for (int i=0; i<numbers.length; i++) {
 						line = infile.nextLine();
 						// should be able to increase frequency regardless of "the" or "THE"
 						line = line.toLowerCase();
-						String[] words = line.split("\\s");
+						String[] words = line.split("[^\\p{L}0-9]+");
 						
 						//Add each word to HashSet of the corresponding file
 						for (String word : words){
