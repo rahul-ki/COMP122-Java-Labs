@@ -15,8 +15,9 @@ Pancakes.input contains a set of inputs. ON CMD do:
   java Pancakes < Pancakes.input
   ``` 
 
-### The 4 files : Buffer.java, Producer.java, Consumer.java and Prodcon.java - 
-constitute the famous PRODUCER-CONSUMER PROBLEM. It deals with concurrent programming and java threads.
+### Prodcon.java - 
+This file has 4 classes within it : Buffer, Producer, Consumer and Prodcon (Prodcon has the main method).
+It constitutes the PRODUCER-CONSUMER PROBLEM. It deals with concurrent programming and java threads.
 In cocnurrent programming, we often do many things at once parallely, and thus there is a problem of "shared resouce" and condition of "mutual exclusion" must then be met, to stop other threads from accessing the resource, when one of the threads is using it.
 Following is a description of the producer-consumer problem:
 [Taken from my lecture notes:-]
