@@ -13,9 +13,9 @@ class Buffer {
 		while (!empty) {  
 		// if not-empty, can't add. must wait
 			try {
+				System.out.println("The buffer is full. you must wait, until something is removed");
 				wait(); // moves thread into the wait set, 
 				//so that another thread can come and access the buffer (to do something in it).
-				System.out.println("The buffer is full. you must wait, until something is removed");
 			}
 			catch (InterruptedException e) {}
 		}
@@ -31,9 +31,9 @@ class Buffer {
 		while (empty) {
 		//if empty, can't remove. must wait
 			try {
-				wait(); // moves thread into the wait set, 
-				//so that another thread can come and access the buffer (to do something in it).
 				System.out.println("The buffer is empty. You must wait, until something is added");
+				wait(); // moves thread into the wait set, 
+				//so that another thread can come and access the buffer (to do something in it).				
 			}
 			catch (InterruptedException e) {}
 		}
