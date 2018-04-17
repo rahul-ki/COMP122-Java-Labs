@@ -1,9 +1,7 @@
-/**  An example to illustrate some GUI elements.
- *
- *  Adapted from David Parsons, Foundational Java.
- *
- * @author Russell Martin, April 2018
-**/
+/**  
+ * An example to illustrate some GUI elements.
+ * LAB 11
+ **/
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
