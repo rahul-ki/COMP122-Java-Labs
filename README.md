@@ -44,3 +44,6 @@ This buffer can hold one item!
 
 ### CommonWordFilesSet.java
 I thought to make things a bit harder. This file allows user to input ANY number of files and finds the common words in all the files. SO I created an ArrayList of HashSet of Strings. This lead to millions of generic array creation errors and weird outputs, and after thinking about it for about two days, there it is! I would probably rate this is as the hardest file to code in here, because I wasn't familiar to collections at this time!
+
+### NoLayout.java
+In the course, we learnt about GUI Programming. This is a very basic java file that creates a pop-up window or "frame" that replicates a LOGIN system, asking for a userID and password. We weren't taught handlers and thus, the login button doesn't really do anything. Furthermore, the pop-up's position has been well defined!
